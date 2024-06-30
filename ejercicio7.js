@@ -1,3 +1,6 @@
+// EJERCICIO 7
+
+
 function greaterNumber(numberOne , numberTwo) {
     if (numberOne > numberTwo) {
       console.log(numberOne);
