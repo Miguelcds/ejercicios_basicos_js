@@ -16,6 +16,16 @@ console.log(sumNumbers(numbers));
 // Otra Forma
 
 
+
+function sumNumbers(numberList) {
+    suma = numberList.reduce(function (num, item){ 
+      return num + item;
+    })
+    return suma; 
+  }
+
+
+
 function sumNumbers(numberList) {
     let res = numberList.reduce(( sum, item) => sum + item, 0);
   
