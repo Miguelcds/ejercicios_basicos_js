@@ -13,4 +13,14 @@ function sumNumbers(numberList) {
 
 console.log(sumNumbers(numbers));
 
+// Otra Forma
 
+
+function sumNumbers(numberList) {
+    let res = numberList.reduce(( sum, item) => sum + item, 0);
+  
+    return res;
+    
+  }
+  
+  console.log(sumNumbers(numbers));
