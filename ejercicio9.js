@@ -34,3 +34,19 @@ function sumNumbers(numberList) {
   }
   
   console.log(sumNumbers(numbers));
+
+
+  // OTRA MAS
+
+ 
+  function sumNumbers(numberList) {
+    let total = 0 ;
+   for (i = 0; i < numberList.length; i++){
+    //let number = numberList[i] // le digo que number se quede con los resaultados de i 
+    total = total + numberList[i]; // le digo que a la variable total se le sumen todos los numberList[i]
+   }
+  
+   console.log(total);
+    }
+  
+  sumNumbers(numbers)
