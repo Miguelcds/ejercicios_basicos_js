@@ -41,9 +41,9 @@ function sumNumbers(numberList) {
  
   function sumNumbers(numberList) {
     let total = 0 ;
-   for (i = 0; i < numberList.length; i++){
+   for (i = 0; i < numberList.length; i++){ // es resultado de bucle sera siempre number.list[i]
     //let number = numberList[i] // le digo que number se quede con los resaultados de i 
-    total = total + numberList[i]; // le digo que a la variable total se le sumen todos los numberList[i]
+    total = total + numberList[i]; // le digo que a la variable total se le sumen todos los numberList[i] o number si uso esa variable.
    }
   
    console.log(total);
