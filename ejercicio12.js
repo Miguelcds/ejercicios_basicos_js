@@ -24,7 +24,7 @@ const duplicates = [
     if (remDuplicates.includes(item)){
       remDuplicates = remDuplicates ;
     } else {
-      remDuplicates = remDuplicates + item + ", ";
+      remDuplicates = remDuplicates + item + " ," ;
     }
 
     }
