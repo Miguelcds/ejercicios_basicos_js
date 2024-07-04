@@ -11,10 +11,12 @@ const toys = [
     {id: 71, name: 'Sylvanian Families - Familia gato'}
   ];
   
+  const toy = [];
   
   for (const item of toys) {
     if(item.name.includes("gato")){
-    } else (
-      console.log(item)
-    )
+    } else {
+      // console.log(item)
+      toy.push(item)
+  }
   }
