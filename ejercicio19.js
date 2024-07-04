@@ -20,3 +20,5 @@ const toys = [
       toy.push(item)
   }
   }
+
+  console.log(toy);
