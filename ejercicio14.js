@@ -26,3 +26,21 @@ function repeatCounter(list) {
 
 repeatCounter(words);
 
+function namess(list) {
+
+  const result = {};
+
+  for (const item of list) {
+    
+    if (result[item]) {
+      result[item] += 1;
+    } else {
+      result[item] = 1;
+    }
+  
+}
+console.log(result);
+}
+
+
+namess(words)
