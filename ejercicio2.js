@@ -15,9 +15,9 @@ let firstName = " Organa";
 
 let age = 20 ;
 
-console.log ( "Soy "+ name + firstName + " y tengo " + age + " y soy una princesa de Alderaan")
+console.log ( "Soy "+ name + firstName + " y tengo " + age + " años, y soy una princesa de Alderaan")
 
-console.log ( "Soy",name,firstName, " y tengo ", age, "y soy una princesa de Alderaan")
+console.log ( "Soy",name,firstName, " y tengo", age, "años, y soy una princesa de Alderaan")
 
 
 // Ejercico 2.3
