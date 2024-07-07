@@ -6,9 +6,17 @@ const products = ['Camiseta de Metallica', 'Pantalón vaquero', 'Gorra de beisbo
 
 
 
-for (let index = 0; index < products.length; index++) {
-  if (products[index].includes("Camiseta")) {
-    console.log(products[index]);
-  }
+// for (let index = 0; index < products.length; index++) {
+//   if (products[index].includes("Camiseta")) {
+//     console.log(products[index]);
+//   }
 
-}
+// }
+
+for (const item of products) {
+  if(item.includes("Camiseta")){
+    console.log( "True:", item);
+   } else {
+    // console.log( "No camiseta:", item);
+   }
+ }
