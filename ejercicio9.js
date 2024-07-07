@@ -11,7 +11,7 @@ function sumNumbers(numberList) {
    
 }
 
-console.log(sumNumbers(numbers));
+sumNumbers(numbers);
 
 // Otra Forma
 
@@ -33,7 +33,7 @@ function sumNumbers(numberList) {
     
   }
   
-  console.log(sumNumbers(numbers));
+  sumNumbers(numbers);
 
 
   // OTRA MAS
