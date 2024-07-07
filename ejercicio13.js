@@ -23,7 +23,7 @@ const names = [
     if (position === -1) {
       console.log( false );
     } else {
-      console.log(true, position);
+      console.log(true, position + 1);
     }
       
     // const includes = nameList.includes(name)
